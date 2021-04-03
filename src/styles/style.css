@@ -1,1 +1,81 @@
 /** CSS STYLE **/
+:root {
+  --main-color: #fe8a02;
+  --main-dark-color: #42413c;
+  --white-color: #fff;
+  --white-opacity-color: #d7ccc0;
+  --light-color: #f5f4f0;
+  --dark-color: #2a2626;
+  --dark-opacity-color: #908d8b;
+  --brown-color: #b09a81;
+  --blue-color: #1085c5;
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: "Open Sans";
+  src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: "Neucha";
+  src: url(../fonts/Neucha-Regular.ttf);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: 16px/1.6em "Open Sans", sans-serif;
+  color: var(--dark-color);
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Neucha", sans-serif;
+  line-height: 1.2em;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 34px;
+}
+
+.flex {
+  display: flex;
+}
+
+.direction-column {
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-i-center {
+  align-items: center;
+}
+
+.content {
+  width: 1110px;
+  margin: 100px 0;
+}
+
+.main-background::before {
+  content: "";
+}
