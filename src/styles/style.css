@@ -188,7 +188,7 @@ h3 {
 
 /* video-section */
 .video-section {
-  margin-bottom: -100px;
+  margin-bottom: -84px;
 
   text-align: center;
 
@@ -201,7 +201,7 @@ h3 {
 
 /* navigation section */
 .navigation-section {
-  padding-top: 84px;
+  padding-top: 100px;
 
   background: var(--main-dark-color);
 }
