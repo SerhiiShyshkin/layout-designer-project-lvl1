@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <header class="position-rel flex direction-column justify-center align-i-center page bg-light bg-main">
+    <header class="position-rel flex direction-column justify-center align-i-center page bg-light bg-section">
         <div class="flex direction-column justify-space-b content">
             <div class="position-rel flex justify-start headline-container">
                 <h1>
@@ -45,7 +45,7 @@
                         Если мы сможем минимизировать воздействие одного или нескольких из
                         этих факторов, то сможем сломать и цикл, а остатки нейтрализовать.
                     </p>
-                    <a href="#navigation" class="btn-header btn-header-style z-index-1">
+                    <a href="#navigation" class="btn-header white-text btn-header-style bg-main z-index-1">
                         подробнее
                     </a>
                 </div>
@@ -63,7 +63,7 @@
             <iframe class="video-filter" width="919" height="569" src="https://www.youtube.com/embed/jie9AizBqss"
                 allowfullscreen></iframe>
         </section>
-        <nav class="flex direction-column justify-center align-i-center navigation-section page">
+        <nav class="flex direction-column justify-center align-i-center navigation-section page bg-dark-main">
             <div id="navigation" class="flex justify-space-b wrap content">
                 <div class="navigation-headline">
                     <h2 class=>5 когнитивных искажений <span class="white-text">о&nbsp;существовании которых стоит
@@ -110,7 +110,7 @@
                 </a>
             </div>
         </nav>
-        <section class="position-rel flex direction-column justify-center align-i-center page bg-light bg-main">
+        <section class="position-rel flex direction-column justify-center align-i-center page bg-light bg-section">
             <div class="flex direction-column justify-space-b content">
                 <div class="flex justify-space-b">
                     <div class="section-image">
@@ -143,7 +143,7 @@
                 </div>
             </div>
         </section>
-        <section class="position-rel flex direction-column justify-center align-i-center page bg-dark bg-main">
+        <section class="position-rel flex direction-column justify-center align-i-center page bg-dark bg-section">
             <div class="flex direction-column justify-space-b content">
                 <div class="flex direction-row-reverse justify-space-b">
                     <div class="section-image">
@@ -175,7 +175,7 @@
                 </div>
             </div>
         </section>
-        <section class="position-rel flex direction-column justify-center align-i-center page bg-light bg-main">
+        <section class="position-rel flex direction-column justify-center align-i-center page bg-light bg-section">
             <div class="flex direction-column justify-space-b content">
                 <div class="flex justify-space-b">
                     <div class="section-image">
@@ -208,7 +208,7 @@
                 </div>
             </div>
         </section>
-        <section class="position-rel flex direction-column justify-center align-i-center page bg-dark bg-main">
+        <section class="position-rel flex direction-column justify-center align-i-center page bg-dark bg-section">
             <div class="flex direction-column justify-space-b content">
                 <div class="flex direction-row-reverse justify-space-b">
                     <div class="section-image">
@@ -242,7 +242,7 @@
                 </div>
             </div>
         </section>
-        <section class="position-rel flex direction-column justify-center align-i-center page bg-light bg-main">
+        <section class="position-rel flex direction-column align-i-center page bg-light bg-section">
             <div class="flex direction-column justify-space-b content">
                 <div class="flex justify-space-b">
                     <div class="section-image">
@@ -277,7 +277,44 @@
             </div>
         </section>
     </main>
-    <footer></footer>
+    <footer class="flex direction-column align-i-center page bg-white">
+        <div class="flex direction-column align-i-center content">
+            <div class="flex justify-space-b align-i-center input-area bg-dark-main">
+                <div class="footer-headline">
+                    <h3 class="white-text">Хотите узнать больше?
+                        <br>Подпишитесь на обновления
+                    </h3>
+                </div>
+                <div class="flex direction-column">
+                    <div class="flex justify-start">
+                        <label class="block white-text">
+                            Электронная почта
+                            <input type="email" id="email" placeholder="Ваша электронная почта"
+                                class="block input-field email-lable">
+                        </label>
+                        <button class="flex justify-center align-i-center send-btn bg-main"></button>
+                    </div>
+                    <div class="white-text service-rules">
+                        Подписываясь, вы принимаете <a href="" class="white-text">правила сервиса</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="flex direction-column justify-space-b align-i-center contact-info">
+                <div class="mb-16">
+                    &copy; 2021 Сергей Шишкин
+                </div>
+                <div class="mb-16">
+                    По материалам статьи <a
+                        href="https://medium.com/hackernoon/cognitive-biases-in-programming-5e937707c27b"
+                        class="blue-text">Yash Ranadive Cognitive Biases in Programming</a>
+                </div>
+                <div>
+                    <a href="https://ru.hexlet.io/" class="blue-text">Курсы программирования Hexlet</a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>

@@ -1,7 +1,7 @@
 /** CSS STYLE **/
 :root {
   --main-color: #fe8a02;
-  --main-color-hover: ##ea7600;
+  --main-color-hover: #ea7600;
   --main-dark-color: #42413c;
   --white-color: #fff;
   --white-opacity-color: #d7ccc0;
@@ -68,6 +68,10 @@ h3 {
 
 .position-abs {
   position: absolute;
+}
+
+.block {
+  display: block;
 }
 
 .flex {
@@ -148,7 +152,15 @@ h3 {
   background: var(--brown-color);
 }
 
-.bg-main::before {
+.bg-main {
+  background: var(--main-color);
+}
+
+.bg-dark-main {
+  background: var(--main-dark-color);
+}
+
+.bg-section::before {
   position: absolute;
 
   width: 100%;
@@ -183,6 +195,10 @@ h3 {
   color: var(--white-opacity-color);
 }
 
+.blue-text {
+  color: var(--blue-color);
+}
+
 .text-block {
   flex: 0 1 540px;
   padding-top: 16px;
@@ -208,16 +224,13 @@ h3 {
 }
 
 .btn-header-style {
-  color: var(--white-color);
   font-weight: bold;
   text-transform: uppercase;
   text-decoration: none;
-
-  background: var(--main-color);
 }
 
 .btn-header:hover {
-  background: #ea7600;
+  background: var(--main-color-hover);
 }
 
 /********** video-section **********/
@@ -238,8 +251,6 @@ h3 {
 
 .navigation-section {
   padding-top: 100px;
-
-  background: var(--main-dark-color);
 }
 
 .card {
@@ -307,12 +318,71 @@ h3 {
 
 .section-image {
   flex: 0 1 578px;
-  filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 0.15));
+
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
 .content-headline {
   margin-top: 100px;
   padding: 5px 10px;
+
   font: 14px/1.2 "Open Sans", sans-serif;
   text-transform: uppercase;
+}
+
+/********** footer **********/
+
+.footer-headline {
+  padding: 55px 0;
+  padding-left: 55px;
+}
+
+.input-area {
+  min-width: 1110px;
+}
+
+.input-field {
+  min-width: 423px;
+  height: 50px;
+  padding: 15px;
+}
+
+.input-field::placeholder {
+  opacity: 0.2;
+}
+
+.email-lable {
+  margin-top: 9px;
+
+  font: 18px/1.6 "Open Sans", sans-serif;
+}
+
+.service-rules {
+  font: 12px/1.6 "Open Sans", sans-serif;
+}
+
+.send-btn {
+  align-self: flex-end;
+
+  min-width: 70px;
+  height: 50px;
+
+  margin-right: 55px;
+}
+
+.send-btn::before {
+  width: 20px;
+  height: 20px;
+
+  content: url("../images/send.svg");
+}
+
+.send-btn:hover {
+  background: var(--main-color-hover);
+}
+
+.contact-info {
+  margin-top: 60px;
+
+  font: 14px/1.6 "Open Sans", sans-serif;
 }
