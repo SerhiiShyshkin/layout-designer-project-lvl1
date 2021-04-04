@@ -118,6 +118,10 @@ h3 {
   margin-bottom: 30px;
 }
 
+.mb-16 {
+  margin-bottom: 16px;
+}
+
 .content {
   width: 1110px;
   margin: 100px 0;
