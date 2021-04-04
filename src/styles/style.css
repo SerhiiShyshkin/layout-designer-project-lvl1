@@ -24,7 +24,8 @@
   src: url(../fonts/Neucha-Regular.ttf);
 }
 
-/* common styles */
+/********** common styles **********/
+
 *,
 *::before,
 *::after {
@@ -77,6 +78,10 @@ h3 {
   flex-direction: column;
 }
 
+.direction-row-reverse {
+  flex-direction: row-reverse;
+}
+
 .justify-center {
   justify-content: center;
 }
@@ -123,11 +128,23 @@ h3 {
   overflow: hidden;
 }
 
-.header {
+.bg-light {
   background: var(--light-color);
 }
 
-.bg-img-main::before {
+.bg-dark {
+  background: var(--brown-color);
+}
+
+.bg-white {
+  background: var(--white-color);
+}
+
+.bg-brown {
+  background: var(--brown-color);
+}
+
+.bg-main::before {
   position: absolute;
 
   width: 100%;
@@ -150,12 +167,25 @@ h3 {
   color: var(--white-color);
 }
 
+.brown-text {
+  color: var(--brown-color);
+}
+
+.dark-opacity-text {
+  color: var(--dark-opacity-color);
+}
+
+.white-opacity-text {
+  color: var(--white-opacity-color);
+}
+
 .text-block {
-  flex: 1 1 540px;
+  flex: 0 1 540px;
   padding-top: 16px;
 }
 
-/* header */
+/********** header **********/
+
 .headline-container {
   padding-bottom: 181px;
 }
@@ -186,7 +216,8 @@ h3 {
   background: #ea7600;
 }
 
-/* video-section */
+/********** video-section **********/
+
 .video-section {
   margin-bottom: -84px;
 
@@ -199,7 +230,8 @@ h3 {
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
-/* navigation section */
+/********** navigation section **********/
+
 .navigation-section {
   padding-top: 100px;
 
@@ -253,4 +285,30 @@ h3 {
   color: var(--white-color);
 
   background: var(--main-color);
+}
+
+/********** sections styles **********/
+
+.caption {
+  font: 24px/1.2 "Neucha", sans-serif;
+}
+
+.description {
+  font: 34px/1.2 "Neucha", sans-serif;
+}
+
+.section-headline {
+  flex: 0 1 502px;
+}
+
+.section-image {
+  flex: 0 1 578px;
+  filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+.content-headline {
+  margin-top: 100px;
+  padding: 5px 10px;
+  font: 14px/1.2 "Open Sans", sans-serif;
+  text-transform: uppercase;
 }
