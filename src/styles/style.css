@@ -261,7 +261,7 @@ h3 {
 
 .card {
   display: block;
-  flex: 0 1 350px;
+  width: 350px;
 
   margin-bottom: 20px;
   padding: 24px;
@@ -284,7 +284,7 @@ h3 {
 }
 
 .navigation-headline {
-  flex: 0 1 350px;
+  width: 350px;
 }
 
 .navigation-headline > h2 {
