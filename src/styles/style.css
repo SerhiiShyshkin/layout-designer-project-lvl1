@@ -249,10 +249,11 @@ h3 {
 
 .navigation-section {
   margin-top: -184px;
+  width: 100%;
 }
 
 .navigation-content {
-  max-width: 1110px;
+  width: 1110px;
   margin-top: 184px;
   margin-bottom: 100px;
 }
