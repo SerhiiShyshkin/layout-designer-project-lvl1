@@ -249,12 +249,12 @@ h3 {
 
 .navigation-section {
   margin-top: -184px;
-  width: 1440px;
+  min-width: 1440px;
   height: auto;
 }
 
 .nav-content {
-  width: 1110px;
+  max-width: 1110px;
   margin-top: 184px;
   margin-bottom: 100px;
 }
