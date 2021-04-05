@@ -250,10 +250,10 @@ h3 {
 .navigation-section {
   margin-top: -184px;
   width: 1440px;
-  height: 914px;
+  height: auto;
 }
 
-.navigation-content {
+.nav-content {
   width: 1110px;
   margin-top: 184px;
   margin-bottom: 100px;
