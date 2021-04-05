@@ -236,8 +236,6 @@ h3 {
 /********** video-section **********/
 
 .video-section {
-  margin-bottom: -84px;
-
   text-align: center;
 
   background: var(--white-color);
@@ -250,7 +248,13 @@ h3 {
 /********** navigation section **********/
 
 .navigation-section {
-  padding-top: 100px;
+  margin-top: -184px;
+}
+
+.navigation-content {
+  max-width: 1110px;
+  margin-top: 184px;
+  margin-bottom: 100px;
 }
 
 .card {
