@@ -263,13 +263,7 @@ h3 {
 
 .nav-content {
   width: 1110px;
-  
-  padding-top: 200px;
-  
-  padding-bottom: 84px;
-  
-  
-  
+  padding: 200px 165px 84px;
 }
 
 .card {
