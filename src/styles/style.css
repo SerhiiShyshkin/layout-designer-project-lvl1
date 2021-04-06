@@ -257,8 +257,8 @@ h3 {
 
 .pos {
   
-  margin-left: 165px;
-  margin-right: 165px;
+  padding-left: 165px;
+  padding-right: 165px;
 }
 
 .nav-content {
