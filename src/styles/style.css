@@ -133,7 +133,7 @@ h3 {
 
 .page {
   min-width: 1440px;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .bg-light {
@@ -248,14 +248,20 @@ h3 {
 /********** navigation section **********/
 
 .nav-section {
-  justify-content: flex-end;
+  
   min-width: 1440px;
   
   margin-top: -200px;
   
 }
 
+.pos {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .nav-content {
+  
   width: 1110px;
   padding-top: 200px;
   padding-bottom: 100px;
