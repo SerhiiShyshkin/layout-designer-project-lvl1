@@ -31,7 +31,7 @@
 *::after {
   box-sizing: border-box;
   margin: 0;
-  /*padding: 0;*/
+  padding: 0;
   border: none;
 
   font-weight: normal;
@@ -261,10 +261,12 @@ h3 {
 
 .nav-content {
   width: 1110px;
-  margin-top: 200px;
-  /*padding-top: 200px;*/
-  /*padding-bottom: 84px;*/
-  margin-bottom: 84px;
+  
+  padding-top: 200px;
+  padding-right: 100%;
+  padding-bottom: 84px;
+  padding-left: 100%;
+  
   
 }
 
