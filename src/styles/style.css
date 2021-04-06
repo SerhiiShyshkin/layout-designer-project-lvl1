@@ -248,16 +248,16 @@ h3 {
 /********** navigation section **********/
 
 .nav-section {
-  width: 100vw;
+  width: 100%;
   min-width: 1440px;
   margin-top: -184px;
 }
 
 .nav-content {
-  max-width: 1110px;
-  margin-top: 184px;
-  margin-bottom: 100px;
+  padding-top: 100px;
 }
+  
+  
 
 .card {
   display: block;
