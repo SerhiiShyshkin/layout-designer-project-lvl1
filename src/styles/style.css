@@ -248,6 +248,7 @@ h3 {
 /********** navigation section **********/
 
 .nav-section {
+  width: 100%;
   min-width: 1440px;
   margin-top: -184px;
 }
