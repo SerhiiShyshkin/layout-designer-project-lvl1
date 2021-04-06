@@ -250,6 +250,7 @@ h3 {
 .nav-section {
   width: 100%;
   min-width: 1440px;
+  flex-shrink: 0;;
 
   margin-top: -200px;
   
@@ -257,8 +258,7 @@ h3 {
 
 .pos {
   
-  padding-left: 165px;
-  padding-right: 165px;
+  
 }
 
 .nav-content {
