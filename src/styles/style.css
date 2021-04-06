@@ -31,7 +31,7 @@
 *::after {
   box-sizing: border-box;
   margin: 0;
-  /*padding: 0;*/
+  padding: 0;
   border: none;
 
   font-weight: normal;
@@ -252,6 +252,8 @@ h3 {
   min-width: 1440px;
 
   margin-top: -200px;
+  padding-right: 165px;
+  padding-left: 165px;
 }
 
 .pos {
