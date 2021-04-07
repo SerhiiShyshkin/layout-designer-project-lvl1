@@ -1,16 +1,4 @@
 /** CSS STYLE **/
-:root {
-  --main-color: #fe8a02;
-  --main-color-hover: #ea7600;
-  --main-dark-color: #42413c;
-  --white-color: #fff;
-  --white-opacity-color: #d7ccc0;
-  --light-color: #f5f4f0;
-  --dark-color: #2a2626;
-  --dark-opacity-color: #908d8b;
-  --brown-color: #b09a81;
-  --blue-color: #1085c5;
-}
 
 @font-face {
   font-weight: 400;
@@ -22,6 +10,19 @@
   font-weight: 400;
   font-family: "Neucha";
   src: url(../fonts/Neucha-Regular.ttf);
+}
+
+:root {
+  --main-color: #fe8a02;
+  --main-color-hover: #ea7600;
+  --main-dark-color: #42413c;
+  --white-color: #fff;
+  --white-opacity-color: #d7ccc0;
+  --light-color: #f5f4f0;
+  --dark-color: #2a2626;
+  --dark-opacity-color: #908d8b;
+  --brown-color: #b09a81;
+  --blue-color: #1085c5;
 }
 
 /********** common styles **********/
@@ -256,7 +257,8 @@ h3 {
 
 .nav-content {
   width: 1110px;
-  padding: 200px 0 84px;
+  margin-top: 200px;
+  padding: 200px 0 -84px;
 }
 
 .card {
